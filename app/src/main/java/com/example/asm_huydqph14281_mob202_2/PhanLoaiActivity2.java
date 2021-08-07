@@ -26,7 +26,7 @@ public class PhanLoaiActivity2 extends AppCompatActivity {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(PhanLoaiActivity2.this);
         rvLoai.setLayoutManager(layoutManager);
 
-        plDAO = new PhanLoaiDAO(PhanLoaiActivity2.this);
+      //  plDAO = new PhanLoaiDAO(PhanLoaiActivity2.this);
         list =plDAO.getALL();
 
         adapter = new PhanLoaiAdapter(PhanLoaiActivity2.this,list);
