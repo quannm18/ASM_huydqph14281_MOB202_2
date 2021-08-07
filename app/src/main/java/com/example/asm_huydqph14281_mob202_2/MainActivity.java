@@ -11,6 +11,8 @@ import com.example.asm_huydqph14281_mob202_2.model.PhanLoai;
 
 import java.util.ArrayList;
 
+//Test1
+
 public class MainActivity extends AppCompatActivity {
 PhanLoaiDAO phanLoaiDAO;
     @Override
