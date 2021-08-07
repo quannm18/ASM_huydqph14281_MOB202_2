@@ -29,7 +29,8 @@ public class PhanLoaiActivity2 extends AppCompatActivity {
       //  plDAO = new PhanLoaiDAO(PhanLoaiActivity2.this);
         list =plDAO.getALL();
 
-        adapter = new PhanLoaiAdapter(PhanLoaiActivity2.this,list);
-        rvLoai.setAdapter(adapter);
+//         adapter = new PhanLoaiAdapter(PhanLoaiActivity2.this,list);
+//         rvLoai.setAdapter(adapter);
+        Log.e("Test1",list.get(0).toString());
     }
 }
